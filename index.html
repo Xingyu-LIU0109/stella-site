@@ -96,11 +96,6 @@
   /* CURSOR BLOB */
   #blob{position:fixed;top:0;left:0;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--accent) 20%,transparent),transparent 70%);filter:blur(18px);pointer-events:none;z-index:1;transform:translate(-50%,-50%);opacity:0;transition:opacity .4s}
   @media(hover:none){#blob{display:none}}
-  /* MARQUEE */
-  .marquee{overflow:hidden;white-space:nowrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:15px 0;background:color-mix(in srgb,var(--accent) 5%,transparent)}
-  .marquee .track{display:inline-block;animation:scrollx 24s linear infinite}
-  .marquee span{font-family:var(--serif);font-size:20px;color:var(--muted);margin:0 26px}
-  @keyframes scrollx{from{transform:translateX(0)}to{transform:translateX(-50%)}}
   /* NAV ACTIVE */
   .nav-in .links a.active{color:var(--ink);font-weight:600}
   .nav-in .links a.game{background:var(--accent2);color:#fff;padding:8px 16px;border-radius:999px;font-weight:600;white-space:nowrap}
@@ -155,12 +150,6 @@
   <div class="scroll-cue" data-i18n="scroll">Scroll Down</div>
 </header>
 
-<div class="marquee" aria-hidden="true">
-  <div class="track">
-    <span>心理学 · 内容研究 · 社群策划 · 团队管理 · 评估复盘 · 两地实践 · 企业文化</span>
-    <span>心理学 · 内容研究 · 社群策划 · 团队管理 · 评估复盘 · 两地实践 · 企业文化</span>
-  </div>
-</div>
 
 <!-- CAPABILITIES -->
 <section id="work">
@@ -266,7 +255,6 @@
       <h2 data-i18n="ct_h">让我们一起，把人与组织温热地连接起来</h2>
       <p class="big" data-i18n="ct_big">开放聊聊文化与心理学交叉的有趣项目。</p>
       <a class="mail" href="mailto:liuxingyu0109stella@gmail.com">liuxingyu0109stella@gmail.com<span class="ar">→</span></a>
-      <p class="alt">📱 +86 153 6400 3457 ｜ +852 9063 0122</p>
     </div>
   </div>
 </section>
