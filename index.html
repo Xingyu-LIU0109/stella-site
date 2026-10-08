@@ -103,6 +103,8 @@
   @keyframes scrollx{from{transform:translateX(0)}to{transform:translateX(-50%)}}
   /* NAV ACTIVE */
   .nav-in .links a.active{color:var(--ink);font-weight:600}
+  .nav-in .links a.game{background:var(--accent2);color:#fff;padding:8px 16px;border-radius:999px;font-weight:600;white-space:nowrap}
+  .nav-in .links a.game:hover{filter:brightness(1.05);color:#fff}
   /* CAP ARROW */
   .cap .role::after{content:"→";opacity:0;margin-left:10px;color:var(--accent);transition:.25s;display:inline-block}
   .cap:hover .role::after{opacity:1;transform:translateX(6px)}
@@ -132,6 +134,7 @@
       <a href="#about" data-i18n="nav_about">关于</a>
       <a href="#work" data-i18n="nav_work">经历</a>
       <a href="#contact" data-i18n="nav_contact">联系</a>
+      <a href="whatsmissing.html" class="game">🎮 What's Missing?</a>
       <a href="#contact" class="cta" data-i18n="nav_talk">Let's Talk 👋</a>
       <span class="lang"><button data-lang="zh" class="active">中</button><button data-lang="en">EN</button></span>
     </div>
